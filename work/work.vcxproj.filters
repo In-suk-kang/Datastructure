@@ -15,39 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
+    <ClCompile Include="..\..\..\..\Downloads\generator.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="graph.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="hashtable.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="heap.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="sort.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="data_gen.c">
+    <ClCompile Include="..\..\..\..\Downloads\main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="graph.h">
+    <ClInclude Include="..\..\..\..\Downloads\structures.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="hashtable.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="heap.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="sort.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="data_gen.h">
+    <ClInclude Include="..\..\..\..\Downloads\generator.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

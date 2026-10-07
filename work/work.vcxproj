@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Downloads\generator.c" />
+    <ClCompile Include="..\..\..\..\Downloads\main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Downloads\generator.h" />
+    <ClInclude Include="..\..\..\..\Downloads\structures.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -111,6 +119,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -138,21 +147,6 @@
       <EnableSegmentHeap>true</EnableSegmentHeap>
     </Manifest>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="data_gen.c" />
-    <ClCompile Include="graph.c" />
-    <ClCompile Include="hashtable.c" />
-    <ClCompile Include="heap.c" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="sort.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="data_gen.h" />
-    <ClInclude Include="graph.h" />
-    <ClInclude Include="hashtable.h" />
-    <ClInclude Include="heap.h" />
-    <ClInclude Include="sort.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
